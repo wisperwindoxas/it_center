@@ -1,5 +1,3 @@
-
-import React from 'react'
 import Container from '../../Container'
 import { Link } from 'react-router-dom'
 
@@ -18,6 +16,7 @@ const Header = () => {
                             <a  href="#">Bosh Sahifa</a>
                             <a href={"#courses"}>Kurslar</a>
                             <a href="#about">Biz Haqimizda</a>
+                            <a href="/lists">Lists</a>
                             <a className='text-green-500 font-extrabold px-10' href={"#form"}>Kursga yozilish</a>
                            
                         </div>
