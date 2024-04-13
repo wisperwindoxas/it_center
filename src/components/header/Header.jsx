@@ -16,7 +16,7 @@ const Header = () => {
                             <a  href="#">Bosh Sahifa</a>
                             <a href={"#courses"}>Kurslar</a>
                             <a href="#about">Biz Haqimizda</a>
-                            <a href="/lists">Lists</a>
+                            <Link to="/lists">Lists</Link>
                             <a className='text-green-500 font-extrabold px-10' href={"#form"}>Kursga yozilish</a>
                            
                         </div>
